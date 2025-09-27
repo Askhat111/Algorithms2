@@ -26,6 +26,5 @@ __pycache__/
 *.pyc
 .venv/
 
-# CSV/plots
-# docs/results.csv
-# docs/plots/
+docs/results.csv
+docs/plots/
