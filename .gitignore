@@ -1,29 +1,31 @@
-### IntelliJ IDEA ###
+# IntelliJ
+.idea/
+*.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+**/src/main/**/out/
+**/src/test/**/out/
 
-### Eclipse ###
-.apt_generated
+# Eclipse
+.project
+.settings/
 .classpath
 .factorypath
-.project
-.settings
 .springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Maven
+target/
 
-### VS Code ###
-.vscode/
+# Logs
+*.log
 
-### Mac OS ###
+# macOS
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# CSV/plots
+# docs/results.csv
+# docs/plots/
