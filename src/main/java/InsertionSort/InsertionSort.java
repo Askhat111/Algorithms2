@@ -12,7 +12,7 @@ public class InsertionSort {
 
         for (int i = 1; i < arr.length; i++) {
             int current = arr[i];
-            arrayAccesses++; // read arr[i]
+            arrayAccesses++; 
             int j = i - 1;
 
             if (j >= 0) {
